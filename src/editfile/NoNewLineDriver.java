@@ -1,5 +1,5 @@
 /*
- * 11/30/2012
+ * 2012-11-30
  * Driver to:
  * Convert .txt files into kindle friendly reading by removing unnecessary newlines
  */
@@ -14,7 +14,7 @@ public class NoNewLineDriver {
     
     public static void main(String[] args){
         String filename = "fightclub";
-        File directory = new File("C:\\Users\\Brandon\\Documents\\NetBeansProjects\\BrandonsUtilities");
+        File directory = new File("C:\\Users\\UserName\\Documents\\NetBeansProjects\\ProjectName");
         File[] files = directory.listFiles();
         
         for(int index = 0; index < files.length; index++){
